@@ -1,5 +1,7 @@
 # Software-Defined Data Center (SDDC) — Design & Implementation
 
+**Project author and sole implementer:** Mohammed Mahyoub.
+
 A working software-defined data center, built on physical hardware. Compute, storage and networking are all virtualised. On top of that platform run four production-style services:
 
 - an Active Directory domain;
@@ -9,7 +11,7 @@ A working software-defined data center, built on physical hardware. Compute, sto
 
 Every layer was installed, configured and tested end to end. The design follows the SDDC model: workloads run on logically defined resources, abstracted from the underlying hardware.
 
-> **Team project** covering design, implementation, configuration, testing and technical documentation.
+> **Independent project** covering design, implementation, configuration, testing and technical documentation.
 
 **Stack:** VMware ESXi 5.5 · vSphere Client · FreeNAS 11 (ZFS) · iSCSI · vSwitch / NIC teaming · Windows Server 2008 R2 · Active Directory / DNS / DHCP · Citrix XenApp 6.5 · AppServ (Apache 2.2, PHP 5, MySQL 5.1, phpMyAdmin) · Exchange Server 2013
 
