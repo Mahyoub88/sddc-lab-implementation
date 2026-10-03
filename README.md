@@ -1,6 +1,6 @@
-# Software-Defined Data Center (SDDC) — Design & Lab Implementation
+# Software-Defined Data Center (SDDC) — Design & Implementation
 
-A working software-defined data-center lab, built on physical hardware. Compute, storage and networking are virtualised, and the lab hosts directory, cloud-application, web and e-mail services. The design follows the SDDC model: workloads run on logically defined resources, abstracted from the underlying hardware.
+A working software-defined data center, built on physical hardware. Compute, storage and networking are virtualised, and the platform hosts directory, cloud-application, web and e-mail services. The design follows the SDDC model: workloads run on logically defined resources, abstracted from the underlying hardware.
 
 > Team project covering design, implementation, configuration, testing and technical documentation.
 
@@ -57,9 +57,9 @@ A working software-defined data-center lab, built on physical hardware. Compute,
 | VM3 | Web server | AppServ stack (Apache, PHP, MySQL, phpMyAdmin): document root, rewrite module, PHP module and `php.ini` tuning |
 | VM4 | E-mail server | Exchange Server 2013 on the AD domain: ECP / OWA, mailbox databases, user mailboxes (incl. PowerShell bulk `Enable-Mailbox`), distribution and security groups, room / equipment / shared mailboxes, send and receive connectors, transport rules and OWA policies |
 
-## Study background
+## Technical background
 
-The documentation also covers the concepts behind the lab:
+The documentation also covers the concepts behind the implementation:
 
 - **SDDC:** architecture, cloud management and multi-tenant trust boundaries.
 - **Storage networking:** DAS, NAS and SAN; SCSI, Fibre Channel, FCIP and IP SAN; storage virtualisation.
