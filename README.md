@@ -254,9 +254,8 @@ Get-User -OrganizationalUnit "<OU>" |
 ```
 
 <p align="center">
-<img src="docs/images/22-exchange-powershell.png" width="32%" alt="Exchange Management Shell — moving the mailbox database">
-<img src="docs/images/23-exchange-admin-center-mailboxes.png" width="32%" alt="Exchange Admin Center — mailboxes">
-<img src="docs/images/24-exchange-send-connector.png" width="32%" alt="Exchange send connector">
+<img src="docs/images/22-exchange-powershell.png" width="49%" alt="Exchange Management Shell — moving the mailbox database">
+<img src="docs/images/24-exchange-send-connector.png" width="49%" alt="Exchange send connector">
 </p>
 
 ---
