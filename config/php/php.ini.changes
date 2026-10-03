@@ -1,0 +1,9 @@
+; PHP 5 — changes applied to C:\dev\progs\PHP\php.ini
+memory_limit = 512M            ; was 128M
+display_errors = On            ; was Off  (lab / development server)
+display_startup_errors = On    ; was Off
+post_max_size = 100M           ; was 8M
+upload_max_filesize = 2000M    ; was 2M
+date.timezone = "Asia/Aden"    ; local time zone (Yemen)
+
+; Verification: C:\dev\www\index.php containing  <?php phpinfo(); ?>  -> http://localhost

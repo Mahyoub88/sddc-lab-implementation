@@ -1,0 +1,28 @@
+# Apache 2.2 (AppServ stack) — changes applied to C:\dev\progs\Apache\conf\httpd.conf
+# Folder layout used on the web-server VM:
+#   C:\dev\progs\  -> Apache, PHP, MySQL binaries
+#   C:\dev\www\    -> web root (site deployed under C:\dev\www\sanaa\)
+
+# 1) Enable URL rewriting (uncommented)
+LoadModule rewrite_module modules/mod_rewrite.so
+
+# 2) Move the document root to the project web folder
+DocumentRoot "C:/dev/www"
+
+# 3) Matching <Directory> block
+<Directory "C:/dev/www">
+    Options Includes Indexes FollowSymLinks MultiViews
+    AllowOverride All
+</Directory>
+
+# 4) Serve PHP index pages
+DirectoryIndex index.html index.htm index.php
+
+# 5) Register the PHP handler (added below "AddType application/x-gzip .gz .tgz")
+AddType application/x-httpd-php .php
+
+# 6) Added by the PHP installer (Apache 2.2 module)
+#BEGIN PHP INSTALLER EDITS - REMOVE ONLY ON UNINSTALL
+PHPIniDir "C:/dev/progs/PHP/"
+LoadModule php5_module "C:/dev/progs/PHP/php5apache2_2.dll"
+#END PHP INSTALLER EDITS - REMOVE ONLY ON UNINSTALL
