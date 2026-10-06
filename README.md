@@ -291,3 +291,11 @@ The documentation also covers the concepts behind the implementation:
 ---
 
 **Author:** Mohammed Mahyoub · [Portfolio](https://mahyoub88.github.io/) · [LinkedIn](https://www.linkedin.com/in/mohammed-mahyoub/) · [ORCID](https://orcid.org/0009-0003-5640-352X)
+
+## Illustrated project pages
+
+Project-specific diagrams, source media and implementation context:
+
+- [Software-Defined Data Center (SDDC) — Design & Implementation](https://mahyoub88.github.io/projects/proj-sddc-lab/)
+
+[Browse all engineering case studies](https://mahyoub88.github.io/projects/)
