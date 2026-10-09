@@ -1,46 +1,6 @@
 # Software-Defined Data Center (SDDC) — Design & Implementation
 
-## Implementation at a glance
-
-A team implementation of a working data center on physical hardware, with shared storage, virtual machines, virtual networking and integrated application services.
-
-| Responsibility | Documented implementation |
-|---|---|
-| Storage | FreeNAS/ZFS exports an iSCSI LUN to the ESXi host. |
-| Compute and network | ESXi hosts four server VMs, managed through vSphere, with vSwitch and NIC teaming. |
-| Application delivery | Citrix XenApp delivers a published application to a domain user. |
-| Web and mail | Apache/PHP/MySQL serves the site; Exchange provides domain mail and controlled mail flow. |
-
-### Source implementation gallery
-
-![Original implementation — vSphere host and VM inventory](docs/images/10-vsphere-host-inventory.png)
-
-*Original implementation — vSphere host and VM inventory.*
-
-![Original implementation — FreeNAS target and extent](docs/images/04-freenas-iscsi-target-extent.png)
-
-*Original implementation — FreeNAS target and extent.*
-
-![Original implementation — published Citrix application running](docs/images/18-citrix-published-app-running.png)
-
-*Original implementation — published Citrix application running.*
-
-![Original implementation — website served by the configured web stack](docs/images/21-sanaa-website-served.jpg)
-
-*Original implementation — website served by the configured web stack.*
-
-### Architecture and implementation workflow
-
-![Explanatory functional architecture](docs/overview/architecture.svg)
-
-![Explanatory engineering workflow](docs/overview/workflow.svg)
-
-*Documentation diagrams based on the project scope; original source images and results are captioned separately.*
-
-[Full engineering guide](docs/engineering-guide.md) · [Illustrated case study](https://mahyoub88.github.io/projects/proj-sddc-lab/)
-
----
-
+[Read case study](https://mahyoub88.github.io/projects/proj-sddc-lab/) · [Project index](docs/PROJECTS.md) · [Engineering guide](docs/engineering-guide.md)
 
 
 **Team project — contributor:** Mohammed Mahyoub. See the documented scope below.
@@ -325,12 +285,4 @@ The documentation also covers the concepts behind the implementation:
 
 ---
 
-**Author:** Mohammed Mahyoub · [Portfolio](https://mahyoub88.github.io/) · [LinkedIn](https://www.linkedin.com/in/mohammed-mahyoub/) · [ORCID](https://orcid.org/0009-0003-5640-352X)
-
-## Illustrated project pages
-
-Project-specific diagrams, source media and implementation context:
-
-- [Software-Defined Data Center (SDDC) — Design & Implementation](https://mahyoub88.github.io/projects/proj-sddc-lab/)
-
-[Browse all engineering case studies](https://mahyoub88.github.io/projects/)
+**Author:** Mohammed Mahyoub · [Portfolio](https://mahyoub88.github.io/projects/) · [LinkedIn](https://www.linkedin.com/in/mohammed-mahyoub/) · [ORCID](https://orcid.org/0009-0003-5640-352X)
